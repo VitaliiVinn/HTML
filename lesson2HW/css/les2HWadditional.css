@@ -1,0 +1,50 @@
+.parents {
+  width: 1000px;
+  height: 600px;
+  margin: auto;
+}
+
+.block {
+  width: 1000px;
+  height: 400px;
+  display: flex;
+  margin-top: 150px;
+}
+
+.inBlock {
+  width: 333px;
+  height: 400px;
+  border: 2px solid silver;
+  justify-content: center;
+  text-align: center;
+  margin-inline: 20px;
+
+}
+
+.inBlock > h2 {
+  font-size: 30px;
+  margin-top: 120px;
+
+}
+
+.inBlock > p {
+  font-size: 20px;
+  color: #949393;
+  margin-top: 20px;
+}
+
+.button {
+  width: 200px;
+  height: 50px;
+  border: 2px solid black;
+  justify-content: center;
+  text-align: center;
+  line-height: 20px;
+  margin: auto;
+}
+
+.button > h2 {
+  font-size: 20px;
+  color: #222222;
+
+}
