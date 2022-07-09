@@ -1,0 +1,59 @@
+.general {
+  width: 600px;
+  height: 900px;
+  margin: auto;
+
+}
+.up {
+  background: blue;
+  width: 600px;
+  height: 300px;
+  justify-content: center;
+  text-align: center;
+  line-height: 300px;
+
+}
+
+.up > h2 {
+  font-size: 50px;
+  color: white;
+ }
+.middle{
+  width: 600px;
+  height: 300px;
+  justify-content: space-between;
+  display: flex;
+
+}
+.middleAll {
+  background: darkblue;
+  width: 190px;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.middleAll > h2 {
+  color: white;
+}
+
+.down {
+  background: blue;
+  width: 600px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+.down > h2 {
+  font-size: 50px;
+  color: white;
+}
+
+
