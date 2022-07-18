@@ -1,0 +1,82 @@
+.parents {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  border: 2px solid red;
+
+}
+
+.head {
+  height: 200px;
+  width: 1000px;
+  background: silver;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+
+
+}
+
+.icon {
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  background: darkslateblue;
+  margin-left: 50px;
+
+}
+
+.nav {
+  width: 100px;
+  height: 50px;
+  margin-right: 50px;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  font-size: 30px;
+  color: red;
+
+}
+
+.middle {
+  height: 500px;
+  width: 1000px;
+  background: blueviolet;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.low {
+  height: 200px;
+  width: 1000px;
+  background: #949393;
+  justify-content: center;
+  align-items: center;
+  display: flex
+
+}
+
+i {
+  size: 50px;
+  color: #222222;
+}
+.generalBox{
+  width: 1000px;
+  height: 100px;
+  position: absolute;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  bottom: -50px;
+
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: white;
+  border-radius: 30px;
+}
+

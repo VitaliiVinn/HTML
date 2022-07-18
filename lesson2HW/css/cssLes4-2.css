@@ -1,0 +1,191 @@
+.general {
+  margin-outside: 10px;
+  height: 100vh;
+  width: 100%;
+}
+
+.a {
+  height: 200px;
+  background: silver;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 50px;
+  border: 2px solid black;
+
+}
+
+.a > p {
+  font-size: 50px;
+  color: black;
+}
+
+.parents {
+  height: 700px;
+  /*!*width: 100%;*!*/
+  justify-content: space-between;
+  /*align-items: center;*/
+  flex-direction: row;
+  /*!*position: relative;*!*/
+  /*!*margin-top: 20px;*!*/
+  display: flex;
+
+
+}
+
+.subParents {
+  width: 64.5%;
+  /*height: 500px;*/
+  justify-content: center;
+  align-items: center;
+  /*display: flex;*/
+  /*margin-bottom: 10px;*/
+
+}
+
+.b {
+
+  height: 460px;
+  background: silver;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 50px;
+  border: 2px solid black;
+  margin-top: 10px;
+}
+
+.b > p {
+  font-size: 50px;
+  color: black;
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  /*vertical-align: center;*/
+}
+
+.boxes {
+  width: 100%;
+  height: 200px;
+  justify-content: space-between;
+  /*align-items: center;*/
+  display: flex;
+  margin-top: 10px;
+}
+
+.c {
+  width: 32.5%;
+  height: 210px;
+  background: silver;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 50px;
+  border: 2px solid black;
+}
+
+.c > p {
+  font-size: 30px;
+  color: black;
+}
+
+.d {
+  width: 32.5%;
+  height: 210px;
+  background: silver;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 50px;
+  border: 2px solid black;
+}
+
+.d > p {
+  font-size: 30px;
+  color: black;
+}
+
+.e {
+  width: 32.5%;
+  height: 210px;
+  background: silver;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 50px;
+  border: 2px solid black;
+}
+
+.e > p {
+  font-size: 30px;
+  color: black;
+}
+
+.f {
+  width: 34.5%;
+  height: 685px;
+  background: silver;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 50px;
+  /*position: absolute;*/
+  border: 2px solid black;
+  margin-top: 10px;
+
+}
+
+.f > p {
+  font-size: 50px;
+  color: black;
+}
+
+@media screen and (max-width: 1300px) {
+
+  .parents {
+    flex-direction: column;
+    height: 1200px;
+
+  }
+
+  .subParents {
+    width: 100%;
+    /*height: 600px;*/
+    margin-bottom: 20px;
+
+  }
+
+  .b {
+    height: 260px;
+  }
+
+  .f {
+    width: 100%;
+    height: 700px;
+    margin-top: 10px;
+  }
+
+  .a > p {
+    font-size: 2.0rem;
+  }
+
+  .b > p {
+    font-size: 2.0rem;
+  }
+
+  .c > p {
+    font-size: 1.0rem;
+  }
+
+  .d > p {
+    font-size: 1.0rem;
+  }
+
+  .e > p {
+    font-size: 1.0rem;
+  }
+
+  .f > p {
+    font-size: 2.0rem;
+  }
+
+}

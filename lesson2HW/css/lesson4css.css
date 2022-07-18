@@ -1,0 +1,87 @@
+.general {
+  margin-outside: 10px;
+  height: 800px;
+  width: 100%;
+}
+
+.a {
+  height: 200px;
+  background: silver;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 50px;
+  margin-bottom: 20px;
+
+}
+
+.a > p {
+  font-size: 50px;
+  color: black;
+}
+
+.parents {
+  height: 600px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+.b {
+  width: 64.5%;
+  height: 100%;
+  background: silver;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 50px;
+  /*margin-right: 20px;*/
+
+}
+
+.b > p {
+  font-size: 50px;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  vertical-align: center;
+}
+
+.c {
+  width: 34.5%;
+  height: 100%;
+  background: silver;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 50px;
+}
+
+.c > p {
+  font-size: 50px;
+  color: black;
+}
+
+@media screen and (max-width: 1300px) {
+  .parents {
+    flex-direction: column;
+
+  }
+  .b {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+
+
+  }
+  .c{
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+  }
+
+}
